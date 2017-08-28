@@ -1,6 +1,3 @@
-# Modding the pyaudio basic recording file to be user controllable in terms
-# of record time and file naming
-
 import pyaudio
 import wave
 
@@ -14,8 +11,6 @@ WAVE_OUTPUT_FILENAME = "recordings/" + raw_input("What would you like to call yo
 if '.wav' not in WAVE_OUTPUT_FILENAME:
     WAVE_OUTPUT_FILENAME += '.wav'
 RECORD_SECONDS = int(raw_input("How many seconds would you like to record > "))
-
-
 
 p = pyaudio.PyAudio()
 
