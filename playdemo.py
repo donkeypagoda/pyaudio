@@ -1,3 +1,4 @@
+
 # PyAudio playback demo
 """PyAudio Example: Play a WAVE file."""
 
